@@ -1,14 +1,14 @@
 //
-//  snsLoginExmapleApp.swift
-//  snsLoginExmaple
+//  snsLoginExampleApp.swift
+//  snsLoginExample
 //
-//  Created by HyunwooPark on 2023/08/14.
+//  Created by HyunwooPark on 2023/08/19.
 //
 
 import SwiftUI
 
 @main
-struct snsLoginExmapleApp: App {
+struct snsLoginExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

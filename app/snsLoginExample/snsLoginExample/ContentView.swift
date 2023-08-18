@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  snsLoginExmaple
+//  snsLoginExample
 //
-//  Created by HyunwooPark on 2023/08/14.
+//  Created by HyunwooPark on 2023/08/19.
 //
 
 import SwiftUI

@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E7177352A8A4FCC007E4268 /* snsLoginExmapleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7177342A8A4FCC007E4268 /* snsLoginExmapleApp.swift */; };
-		5E7177372A8A4FCC007E4268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7177362A8A4FCC007E4268 /* ContentView.swift */; };
-		5E7177392A8A4FCE007E4268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7177382A8A4FCE007E4268 /* Assets.xcassets */; };
-		5E71773C2A8A4FCE007E4268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E71773B2A8A4FCE007E4268 /* Preview Assets.xcassets */; };
+		5E9377322A8FD806007A0EE1 /* snsLoginExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9377312A8FD806007A0EE1 /* snsLoginExampleApp.swift */; };
+		5E9377342A8FD806007A0EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9377332A8FD806007A0EE1 /* ContentView.swift */; };
+		5E9377362A8FD807007A0EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9377352A8FD807007A0EE1 /* Assets.xcassets */; };
+		5E9377392A8FD807007A0EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9377382A8FD807007A0EE1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E7177312A8A4FCC007E4268 /* snsLoginExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snsLoginExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E7177342A8A4FCC007E4268 /* snsLoginExmapleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snsLoginExmapleApp.swift; sourceTree = "<group>"; };
-		5E7177362A8A4FCC007E4268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5E7177382A8A4FCE007E4268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E71773B2A8A4FCE007E4268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5E7177422A8A4FFA007E4268 /* snsLoginExmaple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = snsLoginExmaple.entitlements; sourceTree = "<group>"; };
+		5E93772E2A8FD806007A0EE1 /* snsLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snsLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9377312A8FD806007A0EE1 /* snsLoginExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snsLoginExampleApp.swift; sourceTree = "<group>"; };
+		5E9377332A8FD806007A0EE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E9377352A8FD807007A0EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E9377382A8FD807007A0EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E93773F2A8FD812007A0EE1 /* snsLoginExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = snsLoginExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E71772E2A8A4FCC007E4268 /* Frameworks */ = {
+		5E93772B2A8FD806007A0EE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E7177282A8A4FCC007E4268 = {
+		5E9377252A8FD806007A0EE1 = {
 			isa = PBXGroup;
 			children = (
-				5E7177332A8A4FCC007E4268 /* snsLoginExmaple */,
-				5E7177322A8A4FCC007E4268 /* Products */,
+				5E9377302A8FD806007A0EE1 /* snsLoginExample */,
+				5E93772F2A8FD806007A0EE1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5E7177322A8A4FCC007E4268 /* Products */ = {
+		5E93772F2A8FD806007A0EE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E7177312A8A4FCC007E4268 /* snsLoginExmaple.app */,
+				5E93772E2A8FD806007A0EE1 /* snsLoginExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E7177332A8A4FCC007E4268 /* snsLoginExmaple */ = {
+		5E9377302A8FD806007A0EE1 /* snsLoginExample */ = {
 			isa = PBXGroup;
 			children = (
-				5E7177422A8A4FFA007E4268 /* snsLoginExmaple.entitlements */,
-				5E7177342A8A4FCC007E4268 /* snsLoginExmapleApp.swift */,
-				5E7177362A8A4FCC007E4268 /* ContentView.swift */,
-				5E7177382A8A4FCE007E4268 /* Assets.xcassets */,
-				5E71773A2A8A4FCE007E4268 /* Preview Content */,
+				5E93773F2A8FD812007A0EE1 /* snsLoginExample.entitlements */,
+				5E9377312A8FD806007A0EE1 /* snsLoginExampleApp.swift */,
+				5E9377332A8FD806007A0EE1 /* ContentView.swift */,
+				5E9377352A8FD807007A0EE1 /* Assets.xcassets */,
+				5E9377372A8FD807007A0EE1 /* Preview Content */,
 			);
-			path = snsLoginExmaple;
+			path = snsLoginExample;
 			sourceTree = "<group>";
 		};
-		5E71773A2A8A4FCE007E4268 /* Preview Content */ = {
+		5E9377372A8FD807007A0EE1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5E71773B2A8A4FCE007E4268 /* Preview Assets.xcassets */,
+				5E9377382A8FD807007A0EE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E7177302A8A4FCC007E4268 /* snsLoginExmaple */ = {
+		5E93772D2A8FD806007A0EE1 /* snsLoginExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E71773F2A8A4FCE007E4268 /* Build configuration list for PBXNativeTarget "snsLoginExmaple" */;
+			buildConfigurationList = 5E93773C2A8FD807007A0EE1 /* Build configuration list for PBXNativeTarget "snsLoginExample" */;
 			buildPhases = (
-				5E71772D2A8A4FCC007E4268 /* Sources */,
-				5E71772E2A8A4FCC007E4268 /* Frameworks */,
-				5E71772F2A8A4FCC007E4268 /* Resources */,
+				5E93772A2A8FD806007A0EE1 /* Sources */,
+				5E93772B2A8FD806007A0EE1 /* Frameworks */,
+				5E93772C2A8FD806007A0EE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = snsLoginExmaple;
-			productName = snsLoginExmaple;
-			productReference = 5E7177312A8A4FCC007E4268 /* snsLoginExmaple.app */;
+			name = snsLoginExample;
+			productName = snsLoginExample;
+			productReference = 5E93772E2A8FD806007A0EE1 /* snsLoginExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5E7177292A8A4FCC007E4268 /* Project object */ = {
+		5E9377262A8FD806007A0EE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					5E7177302A8A4FCC007E4268 = {
+					5E93772D2A8FD806007A0EE1 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5E71772C2A8A4FCC007E4268 /* Build configuration list for PBXProject "snsLoginExmaple" */;
+			buildConfigurationList = 5E9377292A8FD806007A0EE1 /* Build configuration list for PBXProject "snsLoginExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 5E7177282A8A4FCC007E4268;
-			productRefGroup = 5E7177322A8A4FCC007E4268 /* Products */;
+			mainGroup = 5E9377252A8FD806007A0EE1;
+			productRefGroup = 5E93772F2A8FD806007A0EE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E7177302A8A4FCC007E4268 /* snsLoginExmaple */,
+				5E93772D2A8FD806007A0EE1 /* snsLoginExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5E71772F2A8A4FCC007E4268 /* Resources */ = {
+		5E93772C2A8FD806007A0EE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E71773C2A8A4FCE007E4268 /* Preview Assets.xcassets in Resources */,
-				5E7177392A8A4FCE007E4268 /* Assets.xcassets in Resources */,
+				5E9377392A8FD807007A0EE1 /* Preview Assets.xcassets in Resources */,
+				5E9377362A8FD807007A0EE1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5E71772D2A8A4FCC007E4268 /* Sources */ = {
+		5E93772A2A8FD806007A0EE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7177372A8A4FCC007E4268 /* ContentView.swift in Sources */,
-				5E7177352A8A4FCC007E4268 /* snsLoginExmapleApp.swift in Sources */,
+				5E9377342A8FD806007A0EE1 /* ContentView.swift in Sources */,
+				5E9377322A8FD806007A0EE1 /* snsLoginExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5E71773D2A8A4FCE007E4268 /* Debug */ = {
+		5E93773A2A8FD807007A0EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		5E71773E2A8A4FCE007E4268 /* Release */ = {
+		5E93773B2A8FD807007A0EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,15 +261,15 @@
 			};
 			name = Release;
 		};
-		5E7177402A8A4FCE007E4268 /* Debug */ = {
+		5E93773D2A8FD807007A0EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = snsLoginExmaple/snsLoginExmaple.entitlements;
+				CODE_SIGN_ENTITLEMENTS = snsLoginExample/snsLoginExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"snsLoginExmaple/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"snsLoginExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 2ZA4H6HG9F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -283,7 +283,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.migusdn.snsLoginExmaple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.migusdn.snsLoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,15 +291,15 @@
 			};
 			name = Debug;
 		};
-		5E7177412A8A4FCE007E4268 /* Release */ = {
+		5E93773E2A8FD807007A0EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = snsLoginExmaple/snsLoginExmaple.entitlements;
+				CODE_SIGN_ENTITLEMENTS = snsLoginExample/snsLoginExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"snsLoginExmaple/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"snsLoginExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 2ZA4H6HG9F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.migusdn.snsLoginExmaple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.migusdn.snsLoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E71772C2A8A4FCC007E4268 /* Build configuration list for PBXProject "snsLoginExmaple" */ = {
+		5E9377292A8FD806007A0EE1 /* Build configuration list for PBXProject "snsLoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E71773D2A8A4FCE007E4268 /* Debug */,
-				5E71773E2A8A4FCE007E4268 /* Release */,
+				5E93773A2A8FD807007A0EE1 /* Debug */,
+				5E93773B2A8FD807007A0EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E71773F2A8A4FCE007E4268 /* Build configuration list for PBXNativeTarget "snsLoginExmaple" */ = {
+		5E93773C2A8FD807007A0EE1 /* Build configuration list for PBXNativeTarget "snsLoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E7177402A8A4FCE007E4268 /* Debug */,
-				5E7177412A8A4FCE007E4268 /* Release */,
+				5E93773D2A8FD807007A0EE1 /* Debug */,
+				5E93773E2A8FD807007A0EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5E7177292A8A4FCC007E4268 /* Project object */;
+	rootObject = 5E9377262A8FD806007A0EE1 /* Project object */;
 }
