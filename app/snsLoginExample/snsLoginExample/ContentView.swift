@@ -6,17 +6,18 @@
 //
 
 import SwiftUI
+import AuthenticationServices
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            SignInWithAppleView()
         }
-        .padding()
+        .frame(height:UIScreen.main.bounds.height)
+        .background(Color.white)
+    
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

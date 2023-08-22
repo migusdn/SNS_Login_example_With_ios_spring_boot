@@ -11,6 +11,8 @@
 		5E9377342A8FD806007A0EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9377332A8FD806007A0EE1 /* ContentView.swift */; };
 		5E9377362A8FD807007A0EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9377352A8FD807007A0EE1 /* Assets.xcassets */; };
 		5E9377392A8FD807007A0EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9377382A8FD807007A0EE1 /* Preview Assets.xcassets */; };
+		5E9377412A8FE25E007A0EE1 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9377402A8FE25E007A0EE1 /* SignInWithAppleView.swift */; };
+		5E9377432A953F62007A0EE1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9377422A953F62007A0EE1 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5E9377352A8FD807007A0EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E9377382A8FD807007A0EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E93773F2A8FD812007A0EE1 /* snsLoginExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = snsLoginExample.entitlements; sourceTree = "<group>"; };
+		5E9377402A8FE25E007A0EE1 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
+		5E9377422A953F62007A0EE1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				5E9377332A8FD806007A0EE1 /* ContentView.swift */,
 				5E9377352A8FD807007A0EE1 /* Assets.xcassets */,
 				5E9377372A8FD807007A0EE1 /* Preview Content */,
+				5E9377402A8FE25E007A0EE1 /* SignInWithAppleView.swift */,
+				5E9377422A953F62007A0EE1 /* NetworkManager.swift */,
 			);
 			path = snsLoginExample;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9377342A8FD806007A0EE1 /* ContentView.swift in Sources */,
+				5E9377432A953F62007A0EE1 /* NetworkManager.swift in Sources */,
 				5E9377322A8FD806007A0EE1 /* snsLoginExampleApp.swift in Sources */,
+				5E9377412A8FE25E007A0EE1 /* SignInWithAppleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = snsLoginExample/snsLoginExample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"snsLoginExample/Preview Content\"";
@@ -285,6 +294,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.migusdn.snsLoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = snsLoginExample/snsLoginExample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"snsLoginExample/Preview Content\"";
@@ -315,6 +326,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.migusdn.snsLoginExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
